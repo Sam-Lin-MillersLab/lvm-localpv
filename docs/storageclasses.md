@@ -26,7 +26,7 @@ Following matrix shows standard storageclass parameters for lvm-localpv
   </tr>
 
   <tr>
-    <td> <a href="#mountoptions-optional"> MountOptions </a> </td>
+    <td> <a href="#mountoptions-optional"> mountOptions </a> </td>
     <td> Options supported by filesystem </td>
     <td></td>
     <td> Supported </td>
@@ -34,7 +34,7 @@ Following matrix shows standard storageclass parameters for lvm-localpv
   </tr>
 
   <tr>
-    <td rowspan=2> <a href="#volumebindingmode-optional"> VolumeBindingMode </a> </td>
+    <td rowspan=2> <a href="#volumebindingmode-optional"> volumeBindingMode </a> </td>
     <td> Immediate </td>
     <td></td>
     <td> Supported </td>
@@ -47,7 +47,7 @@ Following matrix shows standard storageclass parameters for lvm-localpv
   </tr>
 
   <tr>
-    <td rowspan=2> <a href="#reclaim-policy-optional"> Reclaim Policy </a> </td>
+    <td rowspan=2> <a href="#reclaim-policy-optional"> reclaimPolicy </a> </td>
     <td>  Retain </td>
     <td></td>
     <td> Supported </td>
@@ -68,7 +68,7 @@ Following matrix shows standard storageclass parameters for lvm-localpv
   </tr>
 
   <tr>
-    <td rowspan=6> Parameters </td>
+    <td rowspan=6> parameters </td>
     <td> <a href="https://kubernetes-csi.github.io/docs/secrets-and-credentials-storage-class.html#examples"> Passing Secrets </td>
     <td></td>
     <td> No Use Case </td>
@@ -97,7 +97,7 @@ Following matrix shows standard storageclass parameters for lvm-localpv
   </tr>
 
   <tr>
-    <td rowspan=6> Parameters </td>
+    <td rowspan=6> parameters </td>
     <td> <a href="#shared-optional"> shared </td>
     <td> yes </td>
     <td> Supported </td>
